@@ -3,8 +3,36 @@
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
   "packages": [
     {
+      "name": "eslint",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "eslint-config-next",
+      "allowedCategories": [ "tools" ]
+    },
+    {
       "name": "my-controls",
       "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "next",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "nuxt3",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "react",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "react-dom",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "tsutils",
+      "allowedCategories": [ "tools" ]
     },
     {
       "name": "whatwg-fetch",

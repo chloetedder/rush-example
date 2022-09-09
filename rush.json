@@ -243,17 +243,17 @@
      * IMPORTANT: Because these are regular expressions encoded as JSON string literals,
      * RegExp escapes need two backslashes, and ordinary periods should be "\\.".
      */
-    "allowedEmailRegExps": [
-      "[^@]+@users\\.noreply\\.github\\.com",
-      "travis@example\\.org"
-    ],
+    // "allowedEmailRegExps": [
+    //   "[^@]+@users\\.noreply\\.github\\.com",
+    //   "travis@example\\.org"
+    // ],
 
     /**
      * When Rush reports that the address is malformed, the notice can include an example
      * of a recommended email.  Make sure it conforms to one of the allowedEmailRegExps
      * expressions.
      */
-    "sampleEmail": "mrexample@users.noreply.github.com",
+    // "sampleEmail": "mrexample@users.noreply.github.com",
 
     /**
      * The commit message to use when committing changes during 'rush publish'.
@@ -490,6 +490,12 @@
       "projectFolder": "tools/my-toolchain",
       "reviewCategory": "tools",
       "tags": ["tools"]
+    },
+    {
+      "packageName": "next-app",
+      "projectFolder": "apps/next-app",
+      "reviewCategory": "tools",
+      "tags": ["next"]
     }
   ]
 }
