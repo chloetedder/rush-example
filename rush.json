@@ -38,14 +38,12 @@
       "decoupledLocalDependencies": [
       ]
     },
-
     {
       "packageName": "my-controls",
       "projectFolder": "libraries/my-controls",
       "reviewCategory": "production",
       "tags": ["libraries", "web"]
     },
-
     {
       "packageName": "my-toolchain",
       "projectFolder": "tools/my-toolchain",
