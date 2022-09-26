@@ -57,8 +57,8 @@
       "tags": ["next"]
     },
     {
-      "packageName": "gatsby-app",
-      "projectFolder": "apps/storefront",
+      "packageName": "nuxt-app",
+      "projectFolder": "apps/nuxt-app",
       "reviewCategory": "tools",
       "tags": ["next"]
     }
